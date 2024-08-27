@@ -1,13 +1,25 @@
 body {
+  background-color: black;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 1000vh; */
+  color: aliceblue;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.fruitsList{
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
 }
